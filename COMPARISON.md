@@ -2,11 +2,11 @@
 
 The Mac completed every task and needed fewer recoveries than either recorded Windows run. Its measured task total was about five seconds longer than the HP Dragonfly's, but these runs do not establish which computer is faster. The strongest observed Mac advantage was that Calculator and Save As worked through accessibility controls without a visual fallback.
 
-This comparison covers three result sets available on September 24, 2026, through commit `2f85a25`. The original Windows report does not identify its hardware, so three distinct physical computers are not yet independently established. The HP report calls its run separate from the original; that establishes a separate run, not necessarily a different machine.
+This comparison covers three result sets available on September 24, 2026, through commit `2f85a25`. Braeden confirmed that the original Windows run came from his gaming PC, distinct from the HP Dragonfly. This establishes three participating computers. The gaming PC's hardware and application versions remain unrecorded.
 
 ## Outcomes and elapsed time
 
-| Measure | Original Windows | Mac M4, 16 GiB | HP Dragonfly G2, i7-1185G7, 16 GB |
+| Measure | Gaming PC | Mac M4, 16 GiB | HP Dragonfly G2, i7-1185G7, 16 GB |
 | --- | ---: | ---: | ---: |
 | Tasks passed | 7/7 | 7/7 | 7/7 |
 | Tasks with a fallback or recovery | 2 | 1 | 2 |
@@ -16,7 +16,7 @@ This comparison covers three result sets available on September 24, 2026, throug
 
 These totals sum task timers, excluding gaps between tasks and report preparation. They are not full-session durations or application response times.
 
-| Task | Original Windows seconds | Mac seconds | HP seconds |
+| Task | Gaming PC seconds | Mac seconds | HP seconds |
 | --- | ---: | ---: | ---: |
 | B1: enter text and check box | 8.314 | 14.895 | 6.928 |
 | B2: select Two | 3.593 | 0.222 | 0.283 |
