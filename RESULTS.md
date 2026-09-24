@@ -60,3 +60,7 @@ In this run, the browser tasks were smoother. The native issues were recoverable
 - Screenshots and raw transcripts are not included in this two-file repository; the evidence above summarizes the observed tool outputs.
 
 The useful conclusion is narrow: basic browser and native Windows tasks worked on this machine, with two native UI recovery cases worth retesting.
+
+## Additional runs
+
+- [September 24, 2026, 05:18:54 UTC — HP Dragonfly post-restart](runs/2026-09-24T05-18-54Z-hp-dragonfly-postrestart/README.md): all seven tasks passed; includes app versions, timestamps, recovery observations, and the native-saved sample. The original run above is preserved.

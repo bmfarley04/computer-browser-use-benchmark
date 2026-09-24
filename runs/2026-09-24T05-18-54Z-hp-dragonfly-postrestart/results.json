@@ -1,0 +1,74 @@
+{
+  "runId": "2026-09-24T05-18-54Z-hp-dragonfly-postrestart",
+  "procedureCommit": "205e4c7dffc37f41bcd3839486d3915bb54cfd18",
+  "trialsPerTask": 1,
+  "timing": "Date.now immediately before first task action through return of final UI observation; includes intervening reasoning and calls. Independent N3 filesystem verification afterward.",
+  "tasks": [
+    {
+      "id": "B1",
+      "startedAt": "2026-09-24T05:18:54.112Z",
+      "endedAt": "2026-09-24T05:19:01.040Z",
+      "elapsedMs": 6928,
+      "outcome": "Pass",
+      "evidence": "Text input: Benchmark Alpha; Textarea: Synthetic browser benchmark.\\nSecond line: 42.; Default checkbox: 1"
+    },
+    {
+      "id": "B2",
+      "startedAt": "2026-09-24T05:19:04.279Z",
+      "endedAt": "2026-09-24T05:19:04.562Z",
+      "elapsedMs": 283,
+      "outcome": "Pass",
+      "evidence": "Dropdown value Two; option Two selected"
+    },
+    {
+      "id": "B3",
+      "startedAt": "2026-09-24T05:19:10.487Z",
+      "endedAt": "2026-09-24T05:19:11.263Z",
+      "elapsedMs": 776,
+      "outcome": "Pass",
+      "evidence": "Text input Benchmark Beta; Default radio 1; Checked radio 0"
+    },
+    {
+      "id": "B4",
+      "startedAt": "2026-09-24T05:19:13.565Z",
+      "endedAt": "2026-09-24T05:19:23.274Z",
+      "elapsedMs": 9709,
+      "outcome": "Pass",
+      "evidence": "Title tmux - Wikipedia; heading tmux; URL https://en.wikipedia.org/wiki/Tmux"
+    },
+    {
+      "id": "N1",
+      "startedAt": "2026-09-24T05:19:32.191Z",
+      "endedAt": "2026-09-24T05:20:09.890Z",
+      "elapsedMs": 37699,
+      "outcome": "Pass with visual fallback",
+      "evidence": "Screenshot: Standard mode, 7 × 8 =, display 56"
+    },
+    {
+      "id": "N2",
+      "startedAt": "2026-09-24T05:20:13.145Z",
+      "endedAt": "2026-09-24T05:20:32.073Z",
+      "elapsedMs": 18928,
+      "outcome": "Pass",
+      "evidence": "Accessibility document_text: Benchmark Beta: 84 items."
+    },
+    {
+      "id": "N3",
+      "startedAt": "2026-09-24T05:20:35.276Z",
+      "endedAt": "2026-09-24T05:21:12.721Z",
+      "elapsedMs": 37445,
+      "outcome": "Pass after retry",
+      "evidence": "Save dialog absent; title computer-use-benchmark-sample.txt - Notepad; unmodified document; independent file read exact"
+    }
+  ],
+  "recoveries": {
+    "N1": "Accessibility null on all captures; keyboard input with screenshot verification, no failed input.",
+    "N3": "First post-shortcut accessibility null. Window inventory and fresh combined capture exposed dialog. Element-index Save click rejected for parent-window mismatch. Fresh screenshot-1 coordinate click (592,442) succeeded."
+  },
+  "sample": {
+    "file": "computer-use-benchmark-sample.txt",
+    "exactText": "Benchmark Beta: 84 items.",
+    "bytes": 25,
+    "sha256": "6E9ABE74232FCE725C7057BE76DB2D7EA099E80DC0F2C7DDF18B2AF5D01C8884"
+  }
+}
