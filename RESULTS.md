@@ -1,5 +1,7 @@
 # Benchmark results
 
+The original Windows run is recorded below. The additional macOS run is in [RESULTS-MAC.md](RESULTS-MAC.md).
+
 Run date: September 24, 2026. Procedure: [BENCHMARK.md](BENCHMARK.md).
 
 All seven tasks reached their acceptance criteria. Five completed without a recovery; two native tasks required a fallback or retry. This is a single smoke-test run, not an estimate of general reliability.
